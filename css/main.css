@@ -17,10 +17,8 @@
 }
 
 #backcolor-1 {
-	background-color: #2E86C1;
+	background-color: #1F618D;
     opacity: 0.5;
-    height: 200px;
-    background-size: 100%;
     padding: 0% !important;
 }
 
@@ -30,4 +28,65 @@
     background-size: 100%;
     padding: 0% !important;
     opacity: 0.5;
+}
+
+.color-sub {
+	color: #0FC4C4;
+}
+
+#img-banner {
+	width: 100%;
+	height: 500px;
+}
+
+.h1-txt {
+	width: 60%;
+	color: white;
+	margin: 15% 20%;
+}
+
+.txt-azul {
+	color: #1F618D;
+}
+
+.color-blanco {
+	color: white;
+}
+
+.boton {
+	border: 2px solid white;
+	background-color: #1F618D;
+	color: white;
+	width: 40%;
+	margin-top: 8%;
+	margin-bottom: 8%;
+	font-size: 20px;
+}
+
+.img-3 {
+	width: 10%;
+	margin: 5% 45%;
+	padding: 0% !important;
+}
+
+.marg-top {
+	margin-top: 10%;
+}
+
+.marg-botton {
+	margin-bottom: 15%;
+}
+
+hr { 
+   background: url("../image/separador.png") no-repeat center; 
+   height: 100px;
+ } 
+
+ #img-size {
+ 	width: 70%;
+ 	margin-right: 30%;
+ }
+
+.img-file {
+	margin-right: 0% !important;
 }
