@@ -1,0 +1,29 @@
+#custom-nav {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    box-shadow: none;
+    z-index: 999;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+    -moz-transition: background .5s ease-in-out, opacity .5s ease;
+    transition: background .5s ease-in-out, opacity .5s ease;
+}
+
+#back-img {
+	background-image: url("../image/large.jpg");
+	background-repeat: no-repeat;
+    background-size: 100%;	
+}
+
+#backcolor-1 {
+	background-color: #2E86C1;
+    opacity: 0.5;
+    height: 200px;
+    background-size: 100%;
+    padding: 0% !important;
+}
+
+.trans{
+
+}
