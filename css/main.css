@@ -1,94 +1,152 @@
-#custom-nav {
-    background-color: rgba(0,0,0,0);
-    border: 0;
-    box-shadow: none;
-    z-index: 999;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
-    -moz-transition: background .5s ease-in-out, opacity .5s ease;
-    transition: background .5s ease-in-out, opacity .5s ease;
-}
-
-#back-img {
+/* BACK IMAGEN */
+#back-img-1 {
 	background-image: url("../image/large.jpg");
 	background-repeat: no-repeat;
-    background-size: 100%;	
+    background-size: 100% 100%;
 }
 
-#backcolor-1 {
-	background-color: #1F618D;
+/* TRANSPARENCIA DIV PRUEBALO GRATIS */
+.color-div-trans {
+	background-color: #0598FB;
     opacity: 0.5;
+    height: 150px;
     padding: 0% !important;
+}
+
+/* TRANSPARENCIA OSCURA */
+.color-div-trans-1 {
+	background-color: rgba(128,128,128,.4);
+    height: 100%;
+}
+
+/* BOTON PRUEBALO GRATIS */
+.boton {
+	color: white;
+	background-color: #0598FB;
+    opacity: 0.5;
+    font-size: 20px;
+    border: 2px #FFF solid;
+    margin-top: 50px;	
+}
+
+.txt-white {
+	color: #FFF;
+}
+
+.margin-top-1 {
+	margin-top: 50px;
+}
+
+.menu {
+	font-size: 17px;
+	margin-top: 9px; 
+	color: #FFF;
+}
+
+.margin-bottom-1 {
+	margin-bottom: 10%;
+}
+
+
+.icon-gears {
+	color: white;
+	font-size: 30px;
+
+}
+
+.margin-top-2 {
+	margin-top: 10%;
+}
+
+#img-size {
+	width: 300px;
 }
 
 #back-img-2 {
 	background-image: url("../image/sec-2.jpg");
 	background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 0% !important;
-    opacity: 0.5;
-    width: 80%;
-	height: 700px;
+    background-size: 100% 100%;
+    width: 90%;
+    height: 500px;
 }
 
-.color-sub {
-	color: #0FC4C4;
+.img-file {
+	position: relative;
+	right: 0px;
+}
+
+#position-list {
+	position: absolute;
+	top: 40px;
+	right: 40px;
+}
+
+.margin-top-icon {
+	margin-top: 60px;
 }
 
 #img-banner {
 	width: 100%;
-	height: 500px;
 }
 
-.h1-txt {
-	width: 60%;
-	color: white;
-	margin: 15% 20%;
+#back-footer {
+	background-color: #283747;
 }
 
-.txt-azul {
-	color: #1F618D;
+.color-blue {
+	color: #3498DB;
 }
 
-.color-blanco {
-	color: white;
+.top {
+	margin-top: 10% !important;
 }
 
-.boton {
-	border: 2px solid white;
-	background-color: #1F618D;
-	color: white;
-	width: 40%;
-	margin-top: 8%;
-	margin-bottom: 8%;
-	font-size: 20px;
+.bottom {
+	margin-bottom: 10% !important;
 }
 
-.img-3 {
-	width: 10%;
-	margin: 5% 45%;
-	padding: 0% !important;
+.modal {
+	background-image: url("../image/large.jpg");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-.marg-top {
-	margin-top: 10%;
+
+.efecto-1-achicar:hover
+{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
 }
 
-.marg-botton {
-	margin-bottom: 15%;
+
+.hr .img-separador {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-hr { 
-   background: url("../image/separador.png") no-repeat center; 
-   height: 100px;
- } 
+.hr {
+	padding: 4% 0%;
+    position: relative;
+}
 
- #img-size {
- 	width: 70%;
- 	margin-right: 30%;
- }
 
-.img-file {
-	margin-right: 0% !important;
+.color-txt-modal {
+	color: black;
+	font-size: 15px;
+}
+
+
+.efecto-2-agranda:hover
+{
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.3);
+}
+
+.icono {
+	color: #0598FB;
+	font-size: 80px;
 }
